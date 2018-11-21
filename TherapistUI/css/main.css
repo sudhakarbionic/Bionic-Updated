@@ -15345,3 +15345,21 @@ li a:hover{
     transition: var(--transition-period);
     -webkit-transition: 1s;
 }
+
+.mainpage-button{
+	margin-left:auto;
+	margin-right:auto;
+	display:table;
+	font-size:1.2em;
+	font-weight:normal;
+	padding:.5em 2em;
+	letter-spacing:1px;
+}
+
+.check{
+	color:green;
+	font-size:5em !important;
+	margin-left:auto;
+	margin-right:auto;
+	display:table;
+}
