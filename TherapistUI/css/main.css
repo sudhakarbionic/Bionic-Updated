@@ -15363,3 +15363,18 @@ li a:hover{
 	margin-right:auto;
 	display:table;
 }
+
+.jsbutton{
+	
+    margin: 0 5px;
+    color: #FFF;
+    border-radius: 50%;
+    background: #28a745;
+    padding: 5px;
+    font-size: 1.5em !important;
+    text-align: center
+}
+.jsbutton:hover{
+	cursor:pointer;
+	
+}
