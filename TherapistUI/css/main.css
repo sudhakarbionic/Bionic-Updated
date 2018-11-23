@@ -8189,13 +8189,13 @@ button.bg-dark:focus {
 @media (max-width: 610px) {
 	.table th{
 	      padding: 0.20rem;
-		  font-size:10px;
+		  font-size:1em;
   }
 }
 @media (max-width: 576px) {
 	.table th{
 	      padding: 0.15rem;
-		  font-size:10px;
+		  font-size:1em;;
   }
   .tile .tile-title {
 	  font-size:1.2em !important;
@@ -10706,7 +10706,7 @@ body.stop-scrolling {
   	
    .table th{
 	      padding: 0.15rem;
-		  font-size:10px;
+		  font-size:1em;
   }
   .tile .tile-title {
 	  font-size:1.2em !important;
@@ -14204,7 +14204,7 @@ be a descendant of the grid when it is being dragged.
   }
   .table th{
 	      padding: 0.15rem;
-		  font-size:10px;
+		  font-size:1em;
   }
   .tile .tile-title {
 	  font-size:1.2em !important;
@@ -15365,16 +15365,45 @@ li a:hover{
 }
 
 .jsbutton{
-	
-    margin: 0 5px;
+     margin: 0 1px;
     color: #FFF;
     border-radius: 50%;
     background: #28a745;
-    padding: 5px;
-    font-size: 1.5em !important;
+    padding: 3px;
+    font-size: 1.2em !important;
     text-align: center
 }
 .jsbutton:hover{
 	cursor:pointer;
 	
+}
+
+@media (max-width: 550px) {
+  .hide-mobile{
+	visibility:hidden;
+		display:none;
+	}
+  .jsbutton{
+	padding:3px;
+    font-size: .9em !important;
+    margin: 0 !important;
+	}
+	
+	.tblparams{
+		width:100%;
+	}
+	.table td{
+		padding:.5em 0;
+	}
+	.table th {
+    padding: 0.15rem;
+    font-size: .9em;
+	}
+}
+
+.tblparams{
+	width:100%;
+}
+.hide-mobile{
+	width:20%;
 }
